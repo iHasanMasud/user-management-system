@@ -1,5 +1,8 @@
 <?php
+
+namespace App;
 require_once __DIR__ . '/../config.php';
+
 use PHPUnit\Framework\TestCase;
 use App\UserManager;
 use App\Database;
