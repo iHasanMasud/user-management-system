@@ -17,7 +17,7 @@ composer install
 ```
 3. Create a new database
 ```bash
-mysql -u username -p database_name < file.sql
+mysql -u username -p database_name < user_management_system.sql
 ```
 4. update the config.php file with your database credentials
 
@@ -28,6 +28,14 @@ mysql -u username -p database_name < file.sql
 ```bash
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
 ```
+
+### Login Credentials
+- Admin
+    - Email: admin@example.com
+    - Password: Admin_0101
+- User
+    - Email: user@example.com
+    - Password: User_0101
 
 ## Features
 - User Management
